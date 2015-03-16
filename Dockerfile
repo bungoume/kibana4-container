@@ -12,4 +12,4 @@ ADD kibana.yml /data/kibana/config/
 
 VOLUME ["/data"]
 
-CMD ['./bin/kibana']
+CMD ['/data/kibana/bin/kibana']
