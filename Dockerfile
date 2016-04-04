@@ -1,4 +1,4 @@
-FROM kibana:4.4
+FROM kibana:4.5
 
 RUN \
   kibana plugin --install elastic/sense && \
